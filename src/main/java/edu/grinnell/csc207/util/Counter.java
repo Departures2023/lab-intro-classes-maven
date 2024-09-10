@@ -3,7 +3,7 @@ package edu.grinnell.csc207.util;
 /**
  * Simple counters.
  *
- * YOUR NAME HERE.
+ * Tang Yulin, Tang Yixuan
  */
 public class Counter {
   // +--------+------------------------------------------------------

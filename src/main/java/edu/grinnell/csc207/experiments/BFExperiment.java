@@ -1,8 +1,8 @@
 package edu.grinnell.csc207.experiments;
 
-import edu.grinnell.csc207.util.BigFraction;
-
 import java.io.PrintWriter;
+
+import edu.grinnell.csc207.util.BigFraction;
 
 /**
  * A simple experiment using fractions.
@@ -25,10 +25,12 @@ public class BFExperiment {
     BigFraction f1;
     f1 = new BigFraction(3, 10);
     BigFraction f2;
-    f2 = new BigFraction(2, 5);
+    f2 = new BigFraction(11, 3);
+    BigFraction f3 = BigFraction.multiplies(f1, f2);
     pen.println("First fraction: " + f1);
     pen.println("Second fraction: " + f2);
-    pen.println("Sum: " + (f1.add(f2)));
+    pen.println("Product: " + f3);
+    pen.println("Fractional:"+ f2.fractional());
     pen.close();
   } // main(String[])
 } // class BFExperiment

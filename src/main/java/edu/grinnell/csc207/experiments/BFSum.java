@@ -1,8 +1,8 @@
 package edu.grinnell.csc207.experiments;
 
-import edu.grinnell.csc207.util.BigFraction;
-
 import java.io.PrintWriter;
+
+import edu.grinnell.csc207.util.BigFraction;
 
 /**
  * Sum all the fractions provided on the command line.
@@ -27,6 +27,7 @@ public class BFSum {
     BigFraction sum = new BigFraction(0, 1);   // Zero
     for (String arg : args) {
       sum = sum.add(new BigFraction(arg));
+      pen.println(sum);
     } // for
     pen.println(sum);
     pen.close();
