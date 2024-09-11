@@ -6,7 +6,7 @@ Some explorations with the basics of classes in Java
 
 Tang Yulin, Tang Yixuan
 
-We got through Exercise: ###
+We got through Exercise: 1,2,3
 
 ACKNOWLEDGEMENTS
 
